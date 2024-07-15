@@ -1,0 +1,1048 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700");
+@import "https://cdn.jsdelivr.net/npm/open-props@1.6.17/open-props.min.css";
+
+.mers {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bom img {
+    width: 100%;
+
+    height: 900px;
+
+}
+.langbtn{
+gap: 20px
+;
+padding-left: 20px
+}
+.btnu{
+color:#706458;
+margin-left: 10px;
+font-family: "Varta", serif;
+font-weight: 400;
+font-style: normal;
+font-size: 20px;
+line-height: 30px;
+padding-top: 50px;}
+
+.box {
+    margin-left: 180px;
+
+}
+
+.salom {
+    display: flex;
+    align-items: center;
+    padding-top: 67px;
+
+}
+
+.ul {
+    display: flex;
+    gap: 24px;
+    padding-left: 20px;
+}
+
+.ul li a {
+    color: #706458;
+    font-family: "Varta", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.hayr {
+    padding-top: 110px;
+}
+
+.home {
+    font-family: "Varta", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #A06056;
+}
+
+.ele {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    line-height: 70px;
+    color: #A06056;
+    padding-top: 50px;
+}
+
+.we {
+    font-family: "Varta", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+    line-height: 30px;
+    color: #706458E5;
+    padding-top: 30px;
+
+}
+
+.exam {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 34px;
+    line-height: 25px;
+    color: #A06056;
+
+}
+
+.bars i {
+    padding-left: 20px;
+    font-size: 30px;
+    display: none;
+}
+
+.pas {
+    margin-top: 48px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #A06056;
+    color: #A06056;
+    padding-top: 15px;
+}
+
+.pas i {
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width:1400px) {
+    .box {
+
+        margin-right: 10px;
+    }
+
+    .ul li a {
+        display: none;
+    }
+
+    .bars i {
+        display: block;
+        color: white;
+        padding-left: 90px;
+    }
+
+}
+
+@media (max-width:1255px) {
+    .bom {
+        position: absolute;
+
+    }
+
+    .mers {
+        margin: 0 auto;
+    }
+
+    .box {
+        position: relative;
+        z-index: 10;
+
+    }
+
+    .exam {
+        color: white;
+
+    }
+
+    .home {
+        color: white;
+        text-align: center;
+
+    }
+
+    .ele {
+        color: white;
+        text-align: center;
+    }
+
+    .we {
+        color: white;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+
+    .pas {
+
+        margin: 0 auto;
+
+
+        border: 1px solid #ffffff;
+        color: #ffffff;
+    }
+
+
+
+
+}
+
+@media (max-width:725px) {
+
+    .bom img {
+        width: 100%;
+        margin-top: -40px;
+    }
+
+    .box {
+        margin: 0 auto;
+    }
+
+}
+
+@media (max-width:650px) {
+
+    .bom img {
+
+        width: 100%;
+
+
+        margin-top: -105px;
+        height: 900px;
+    }
+
+    .box {
+        margin: 0 auto;
+    }
+
+}
+
+@media (max-width:650px) {
+
+    .bom img {
+
+        width: 100%;
+
+
+        margin-top: -165px;
+        height: 900px;
+    }
+
+    .box {
+        margin: 0 auto;
+    }
+
+    .home {
+        font-family: "Varta", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 10px;
+        line-height: 16px;
+
+    }
+
+    .ele {
+        font-family: "Merriweather", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 30px;
+        line-height: 50px;
+
+    }
+
+    .we {
+        font-family: "Varta", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 18px;
+        line-height: 26px;
+
+    }
+
+    .pas {
+        display: none;
+    }
+
+    .exam {
+        font-family: "Merriweather", serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 34px;
+        line-height: 25px;
+
+
+    }
+
+}
+
+@media (max-width:550px) {
+    .bom img {
+
+        width: 100%;
+
+
+
+        margin-top: -200px;
+        height: 900px;
+    }
+
+    .box {
+        margin: 0 auto;
+    }
+
+    .hayr {
+        margin-top: -50px;
+    }
+
+    .bars {
+        margin-left: -50px;
+    }
+
+
+
+
+
+}
+
+
+.mers {
+    background-color: #F3EEE8;
+}
+
+.find {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 55px;
+    line-height: 60px;
+    color: #706458;
+
+}
+
+.fayz {
+    padding-left: 150px;
+    padding-top: 64px;
+}
+
+.toyoto {
+    background-color: #F3EEE8;
+}
+
+.din {
+    font-family: "Varta", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #706458;
+
+}
+
+.swi {
+    padding-top: 48px;
+    padding-left: 30px;
+}
+
+.hjk {
+    display: flex;
+}
+
+.hjk img {
+    padding-left: 24px;
+}
+
+.room,
+.rooma {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 55px;
+    line-height: 60px;
+    color: white;
+    margin-top: 140px;
+    margin-left: -160px;
+}
+
+.rooma {
+    margin-left: -40px;
+}
+
+.new {
+    font-family: "Varta", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #706458;
+    margin-left: -40px;
+}
+
+.swiper-box,
+.bos {
+    background-color: #ffffff;
+    position: relativ;
+
+
+
+
+
+
+}
+
+.swiper-box {
+    background: #F3EEE8;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+.swiper-container {
+    width: 100%;
+
+
+
+}
+
+.hjk img {
+    width: 300px;
+    height: 380px;
+}
+
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.slide {
+
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 50px;
+
+}
+
+@media (max-width:1315px) {
+    .slide {
+        display: block;
+    }
+
+    .hjk {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .new {
+        display: flex;
+        margin: 0 auto;
+    }
+
+    .find {
+
+        margin-left: -120px;
+
+        margin-top: 100px;
+        font-family: "Merriweather", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 35px;
+        line-height: 40px;
+        color: #706458;
+        text-align: center;
+
+    }
+
+    .room,
+    .rooma {
+        margin-left: -200px;
+    }
+
+    .toyoto {
+        background-color: #F3EEE8;
+        width: 100%;
+    }
+
+
+}
+
+
+@media (max-width:376px) {
+    .bom img {
+        width: 100%;
+
+    }
+
+    .bos {
+        margin-top: -190px;
+    }
+
+
+
+}
+
+.bos {
+    padding-bottom: 140px;
+    background-color: #F3EEE8;
+}
+
+.stay {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 55px;
+    line-height: 60px;
+    color: #706458;
+}
+
+.ford {
+    background-color: #F3EEE8;
+    display: flex;
+    justify-content: space-around;
+}
+
+.out {
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 17px;
+    line-height: 25px;
+    color: #A06056;
+    padding-top: 30px;
+
+}
+
+.i i {
+    color: #A06056;
+    margin-top: 30px;
+
+}
+
+.adv {
+    font-family: "Varta", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 25px;
+    line-height: 30px;
+    color: #A06056;
+}
+
+.if {
+    font-family: "Varta", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #706458;
+    padding-top: 12px;
+}
+
+.zzz {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+
+
+}
+
+.zzz:nth-child(2) {
+    padding-top: 30px;
+}
+
+@media (max-width:1050px) {
+    .ford {
+        display: block;
+    }
+
+    .stay {
+        padding-left: 30px;
+    }
+
+    .i {
+        padding-left: 30px;
+
+    }
+
+    .zzz {
+
+        display: block;
+        padding-left: 30px;
+        padding-top: 20px;
+    }
+
+    .adv {
+        padding-top: 30px;
+    }
+
+
+
+}
+
+@media (max-width:480px) {
+    .stay {
+        font-size: 40px;
+        line-height: 45px;
+    }
+
+}
+
+.dni {
+
+    padding-top: 70px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.be {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+    line-height: 40px;
+    color: #121212;
+}
+
+.tre {
+    font-family: "Varta", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #706458;
+    padding-top: 15px;
+}
+
+.email {
+    margin-top: 32px;
+}
+
+.inp {
+    padding: 15px 15px 15px 15px;
+    border: none;
+    background-color: #F3EEE8;
+    font-family: "Varta", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #706458;
+    border-radius: 2px;
+
+}
+
+.btn {
+    border: none;
+    padding: 12px 29px;
+    margin-left: 12px;
+    background-color: #534b42a9;
+    font-family: " Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 17px;
+    line-height: 25px;
+    align-items: center;
+    color: white;
+
+}
+
+.btn:hover {
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    transition: .5s;
+    background-color: #534B42;
+}
+
+.body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin-top: -40px;
+}
+
+.scroll-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+    border: none;
+}
+
+.container {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    white-space: nowrap;
+    padding: 20px;
+
+    background-color: #fff;
+
+    width: 100%;
+    /* Ensures container uses the full width of the parent */
+    max-width: 1400px;
+    /* Adjust the maximum width to hold more cards */
+    /* Hide the scrollbar */
+    scrollbar-width: none;
+    /* Firefox */
+    -ms-overflow-style: none;
+    /* IE and Edge */
+}
+
+.container::-webkit-scrollbar {
+    display: none;
+    /* Chrome, Safari, Opera */
+}
+
+.card {
+    flex: 0 0 auto;
+
+    margin-right: 20px;
+
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.2s;
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+.card img {
+    width: 458px;
+    height: 550px;
+}
+
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.scroll-btn {
+    /* Hide the buttons initially */
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.scroll-btn.left {
+    left: 0;
+}
+
+.scroll-btn.right {
+    right: 0;
+}
+
+@media (max-width:1050px) {
+    .dni {
+        display: block;
+        margin-left: 30px;
+    }
+
+    .be {
+        font-family: "Merriweather", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 25px;
+        line-height: 30px;
+        color: #121212;
+    }
+
+    .tre {
+        font-family: "Varta", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 13px;
+        line-height: 20px;
+        color: #706458;
+        padding-top: 15px;
+    }
+
+    .email {
+        display: block;
+    }
+
+
+
+}
+
+@media (max-width:1400px) {
+    .container {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+}
+
+@media (max-width:800px) {
+    .container {
+        max-width: 690px;
+        margin: 0 auto;
+    }
+
+    .card img {
+        width: 400px;
+        height: 500px;
+    }
+
+}
+
+@media (max-width:800px) {
+    .container {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+
+}
+
+@media (max-width:600px) {
+    .container {
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+
+}
+
+@media (max-width:500px) {
+    .container {
+        max-width: 350px;
+        margin: 0 auto;
+    }
+
+    .card img {
+        width: 350px;
+    }
+
+
+}
+
+.btns {
+    display: flex;
+    gap: 11px;
+}
+
+.quv {
+    display: flex;
+    justify-content: space-around;
+}
+
+.btns button {
+    padding: 15px 15px 15px 15px;
+    color: #A06056;
+    border: 2px solid #A06056;
+    border-radius: 50%;
+    background-color: white;
+
+}
+
+.ins {
+    display: flex;
+    gap: 90px;
+    padding-bottom: 70px;
+}
+
+.case {
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 45px;
+    line-height: 40px;
+    color: #534B42;
+}
+
+.exp {
+    font-family: "Varta", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #706458;
+    
+}
+
+@media (max-width:815px) {
+
+    .quv,
+    .ins {
+        display: block;
+        padding-left: 30px;
+    }
+
+    .btns {
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+
+    .case {
+        padding-top: 20px;
+    }
+
+    .exp {
+        padding-top: 20px;
+    }
+
+}
+
+@media (max-width:450px) {
+    .case {
+        font-family: "Merriweather", serif;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 35px;
+        line-height: 30px;
+        color: #534B42;
+    }
+
+    .exp {
+        font-family: "Varta", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 13px;
+        line-height: 20px;
+        color: #706458;
+    }
+}
+
+.footer {
+display: flex;
+padding-left: 150px;
+padding-top: 70px;
+}
+.oyoq{
+background-color: #F3EEE8;
+}
+.xam{
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 34px;
+    line-height: 25px;
+    color: #534B42;
+}
+.menu{
+    display: flex;
+padding-left: 94px;
+gap: 48px;
+}
+.box1{
+    font-family: "Varta", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 25px;
+    line-height: 30px;
+    padding-bottom: 22px;
+    color: #534B42;
+}
+.bomba{
+    font-family: "Varta", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 25px;
+    padding-top: 12px;
+    color: #706458;
+
+
+}
+.rs{
+    font-family: "Varta", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 25px;
+    line-height: 30px;
+  padding-bottom: 24px;
+    color: #706458;
+}
+.tak{
+    font-family: "Varta", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 25px;
+    color: #706458;
+}
+.dilid{
+display: flex;
+font-size: 32px;
+gap: 24px
+;
+justify-content: center;
+color: #706458
+;
+padding-top: 48px;}
+.fals{
+display: flex;
+justify-content: space-around;
+font-family: "Varta", serif;
+font-weight: 400;
+font-style: normal;
+font-size: 18px;
+line-height: 25px;
+color: #706458;
+padding-top: 20px;
+}
+.fals ul{
+display: flex;
+gap: 30px
+;
+}
+
+@media (max-width:1250px){
+.footer,.menu{
+display: block;
+margin-left: -90px;
+}
+.xam{
+text-align: center;
+}
+.menu,.ula
+{
+padding-top: 30px;
+}
+.dfg{
+padding-top: 40px;
+margin-left: -90px;
+}
+
+}
+@media (max-width:550px){
+.fals{
+display: block;
+padding-left: 50px;
+}
+.fals ul{
+    display: block;
+    padding-top: 20px;
+    }
+
+}
